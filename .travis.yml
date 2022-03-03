@@ -4,7 +4,7 @@ services:
   -docker
 
 before_install:
-  - docker build -t Test -f Dockerfile.dev .
+  - docker build -t test -f Dockerfile.dev .
 
 script:
-  - docker run -e CI=true Test npm run test
+  - docker run -e CI=true test npm run test
