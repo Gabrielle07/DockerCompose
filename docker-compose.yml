@@ -5,4 +5,4 @@ services:
       context: src
       dockerfile: Dockerfile
     ports:
-      - '80:80'
+      - '89:80'
